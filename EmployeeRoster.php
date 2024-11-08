@@ -1,7 +1,7 @@
 <?php
 
 class EmployeeRoster {
-    private $roster = [];
+    private $rosterSize = [];
     private $rosterSize;
 
     public function __construct($rosterSize) {
